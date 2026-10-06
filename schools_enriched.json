@@ -62,9 +62,15 @@
     "longitude": "174.754176",
     "school_type_moe": "Contributing",
     "total_roll": "674",
-    "international_roll": "9",
+    "international_roll": 9,
     "eqi_directory": 344,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 674,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.027,
+    "site_area_m2": 20269.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.027 公顷（20,270 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1367（Maungawhau School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Meadowbank School",
@@ -117,9 +123,15 @@
     "longitude": "174.819916",
     "school_type_moe": "Contributing",
     "total_roll": "805",
-    "international_roll": "4",
+    "international_roll": 4,
     "eqi_directory": 349,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 805,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.4203,
+    "site_area_m2": 24203.0,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.4203 公顷（24,203 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1370（Meadowbank School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "ptchev@ptchev.school.nz",
@@ -184,9 +196,15 @@
     "longitude": "174.704211",
     "school_type_moe": "Contributing",
     "total_roll": "639",
-    "international_roll": "6",
+    "international_roll": 6,
     "eqi_directory": 360,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 639,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.7573,
+    "site_area_m2": 17573.3,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.7573 公顷（17,573 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1440（Point Chevalier School Rangi-mata-rau，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Churchill Park School",
@@ -246,9 +264,15 @@
     "longitude": "174.873571",
     "school_type_moe": "Full Primary",
     "total_roll": "404",
-    "international_roll": "9",
+    "international_roll": 9,
     "eqi_directory": 363,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 404,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.0318,
+    "site_area_m2": 30318.3,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0318 公顷（30,318 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1246（Churchill Park School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Dominion Road School",
@@ -315,9 +339,15 @@
     "longitude": "174.743731",
     "school_type_moe": "Contributing",
     "total_roll": "210",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 454,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 210,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.0448,
+    "site_area_m2": 20448.1,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.0448 公顷（20,448 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1261（Dominion Road School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "admin@freemansbay.school.nz",
@@ -382,9 +412,15 @@
     "longitude": "174.752810",
     "school_type_moe": "Contributing",
     "total_roll": "646",
-    "international_roll": "13",
+    "international_roll": 13,
     "eqi_directory": 408,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 646,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.1801,
+    "site_area_m2": 21800.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.1801 公顷（21,801 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1279（Freemans Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Glendowie School",
@@ -451,9 +487,15 @@
     "longitude": "174.875680",
     "school_type_moe": "Full Primary",
     "total_roll": "676",
-    "international_roll": "39",
+    "international_roll": 39,
     "eqi_directory": 364,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 676,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.1434,
+    "site_area_m2": 21434.1,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.1434 公顷（21,434 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1294（Glendowie School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Kadimah School",
@@ -509,9 +551,15 @@
     "longitude": "174.805257",
     "school_type_moe": "Full Primary",
     "total_roll": "139",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 361,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 139,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 0.8586,
+    "site_area_m2": 8586.2,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.8586 公顷（8,586 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=453（Kadimah School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Mt Albert Primary School (Mt Albert School)",
@@ -572,9 +620,15 @@
     "longitude": "174.731512",
     "school_type_moe": "Contributing",
     "total_roll": "539",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 390,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 539,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.0321,
+    "site_area_m2": 30321.5,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0321 公顷（30,321 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1381（Mt Albert School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "internationals@ponsprim.school.nz",
@@ -640,9 +694,15 @@
     "longitude": "174.738996",
     "school_type_moe": "Contributing",
     "total_roll": "329",
-    "international_roll": "3",
+    "international_roll": 3,
     "eqi_directory": 364,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 329,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.1751,
+    "site_area_m2": 11751.2,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.1751 公顷（11,751 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1446（Ponsonby Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Balmoral S D A School",
@@ -698,9 +758,15 @@
     "longitude": "174.745772",
     "school_type_moe": "Full Primary",
     "total_roll": "64",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 441,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 64,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 0.7056,
+    "site_area_m2": 7055.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.7056 公顷（7,056 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=4100（Balmoral Seventh Day Adventist School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "maryam@studywithkea.com",
@@ -768,9 +834,15 @@
     "longitude": "174.999507",
     "school_type_moe": "Full Primary",
     "total_roll": "642",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 395,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 642,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.5212,
+    "site_area_m2": 25211.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.5212 公顷（25,212 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1224（Beachlands School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": null,
@@ -836,9 +908,15 @@
     "longitude": "174.926309",
     "school_type_moe": "Contributing",
     "total_roll": "843",
-    "international_roll": "21",
+    "international_roll": 21,
     "eqi_directory": 391,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 843,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.3821,
+    "site_area_m2": 23821.5,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.3821 公顷（23,821 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1413（Owairoa Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Riverina School",
@@ -894,9 +972,15 @@
     "longitude": "174.861813",
     "school_type_moe": "Contributing",
     "total_roll": "150",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 468,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 150,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.1817,
+    "site_area_m2": 31817.5,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.1817 公顷（31,817 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1466（Riverina School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Botany Downs School",
@@ -962,9 +1046,15 @@
     "longitude": "174.922774",
     "school_type_moe": "Contributing",
     "total_roll": "590",
-    "international_roll": "7",
+    "international_roll": 7,
     "eqi_directory": 392,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 590,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.9596,
+    "site_area_m2": 29596.0,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.9596 公顷（29,596 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1235（Botany Downs School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "internationalstudents@pmps.school.nz",
@@ -1030,9 +1120,15 @@
     "longitude": "174.907050",
     "school_type_moe": "Contributing",
     "total_roll": "503",
-    "international_roll": "8",
+    "international_roll": 8,
     "eqi_directory": 353,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 503,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.2168,
+    "site_area_m2": 32167.8,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.2168 公顷（32,168 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1439（Pigeon Mountain School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "international@sunnyhills.school.nz",
@@ -1097,9 +1193,15 @@
     "longitude": "174.883307",
     "school_type_moe": "Contributing",
     "total_roll": "500",
-    "international_roll": "3",
+    "international_roll": 3,
     "eqi_directory": 367,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 500,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.401,
+    "site_area_m2": 24010.4,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.401 公顷（24,010 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1515（Sunnyhills School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "info@willowbank.school.nz",
@@ -1164,9 +1266,15 @@
     "longitude": "174.914146",
     "school_type_moe": "Contributing",
     "total_roll": "740",
-    "international_roll": "5",
+    "international_roll": 5,
     "eqi_directory": 374,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 740,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.4425,
+    "site_area_m2": 24424.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.4425 公顷（24,425 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6959（Willowbank School (Howick)，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Wakaaranga School",
@@ -1230,9 +1338,15 @@
     "longitude": "174.894052",
     "school_type_moe": "Contributing",
     "total_roll": "655",
-    "international_roll": "7",
+    "international_roll": 7,
     "eqi_directory": 381,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 655,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.2331,
+    "site_area_m2": 22331.0,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.2331 公顷（22,331 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1560（Wakaaranga School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "lauren@elmpark.school.nz",
@@ -1299,9 +1413,15 @@
     "longitude": "174.889952",
     "school_type_moe": "Contributing",
     "total_roll": "495",
-    "international_roll": "2",
+    "international_roll": 2,
     "eqi_directory": 407,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 495,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.2372,
+    "site_area_m2": 22371.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.2372 公顷（22,372 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1269（Elm Park School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Maraetai Beach School",
@@ -1368,9 +1488,15 @@
     "longitude": "175.036926",
     "school_type_moe": "Full Primary",
     "total_roll": "432",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 398,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 432,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.1739,
+    "site_area_m2": 21738.8,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.1739 公顷（21,739 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1357（Maraetai Beach School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "enrol@ormps.school.nz",
@@ -1435,9 +1561,15 @@
     "longitude": "174.920677",
     "school_type_moe": "Contributing",
     "total_roll": "1006",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 379,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 1006,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.7286,
+    "site_area_m2": 37285.8,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.7286 公顷（37,286 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=688（Ormiston Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Shelly Park School",
@@ -1498,9 +1630,15 @@
     "longitude": "174.944935",
     "school_type_moe": "Contributing",
     "total_roll": "467",
-    "international_roll": "4",
+    "international_roll": 4,
     "eqi_directory": 375,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 467,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.6046,
+    "site_area_m2": 26046.1,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.6046 公顷（26,046 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1480（Shelly Park School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Target Road School",
@@ -1556,9 +1694,15 @@
     "longitude": "174.733365",
     "school_type_moe": "Contributing",
     "total_roll": "466",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 412,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 466,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.8536,
+    "site_area_m2": 28536.5,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8536 公顷（28,536 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1528（Target Road School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "office@chelsea.school.nz",
@@ -1624,9 +1768,15 @@
     "longitude": "174.707620",
     "school_type_moe": "Contributing",
     "total_roll": "401",
-    "international_roll": "6",
+    "international_roll": 6,
     "eqi_directory": 352,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 401,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.8748,
+    "site_area_m2": 28747.7,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8748 公顷（28,748 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1244（Chelsea School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Albany Primary School",
@@ -1686,9 +1836,15 @@
     "longitude": "174.690624",
     "school_type_moe": "Contributing",
     "total_roll": "654",
-    "international_roll": "9",
+    "international_roll": 9,
     "eqi_directory": 378,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 654,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.0266,
+    "site_area_m2": 30265.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0266 公顷（30,266 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1202（Albany School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "office@devonport.school.nz",
@@ -1753,9 +1909,15 @@
     "longitude": "174.799486",
     "school_type_moe": "Contributing",
     "total_roll": "249",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 372,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 249,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.3183,
+    "site_area_m2": 13183.1,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.3183 公顷（13,183 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1260（Devonport Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Ridgeview School",
@@ -1815,9 +1977,15 @@
     "longitude": "174.648367",
     "school_type_moe": "Contributing",
     "total_roll": "48",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 470,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 48,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.4082,
+    "site_area_m2": 14082.0,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.4082 公顷（14,082 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1433（Ridgeview School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Ahutoetoe School",
@@ -1885,9 +2053,15 @@
     "longitude": "174.652689",
     "school_type_moe": "Contributing",
     "total_roll": "325",
-    "international_roll": "4",
+    "international_roll": 4,
     "eqi_directory": 384,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 325,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.7462,
+    "site_area_m2": 37461.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.7462 公顷（37,462 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=764（Ahutoetoe School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Gulf Harbour School",
@@ -1941,9 +2115,15 @@
     "longitude": "174.799514",
     "school_type_moe": "Contributing",
     "total_roll": "565",
-    "international_roll": "21",
+    "international_roll": 21,
     "eqi_directory": 414,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 565,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 4.5944,
+    "site_area_m2": 45943.7,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 4.5944 公顷（45,944 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6920（Gulf Harbour School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Hobsonville School",
@@ -2008,9 +2188,15 @@
     "longitude": "174.637212",
     "school_type_moe": "Full Primary",
     "total_roll": "502",
-    "international_roll": "5",
+    "international_roll": 5,
     "eqi_directory": 397,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 502,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.0565,
+    "site_area_m2": 30564.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0565 公顷（30,565 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1314（Hobsonville School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Mairangi Bay School",
@@ -2076,9 +2262,15 @@
     "longitude": "174.747386",
     "school_type_moe": "Contributing",
     "total_roll": "486",
-    "international_roll": "33",
+    "international_roll": 33,
     "eqi_directory": 358,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 486,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.7663,
+    "site_area_m2": 17663.0,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.7663 公顷（17,663 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1343（Mairangi Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Snells Beach Primary School",
@@ -2135,9 +2327,15 @@
     "longitude": "174.723704",
     "school_type_moe": "Contributing",
     "total_roll": "357",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 437,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 357,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.5819,
+    "site_area_m2": 35818.8,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.5819 公顷（35,819 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6759（Snells Beach Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Sunnybrae Normal School",
@@ -2204,9 +2402,15 @@
     "longitude": "174.744714",
     "school_type_moe": "Contributing",
     "total_roll": "381",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 386,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 381,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.7411,
+    "site_area_m2": 27410.7,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7411 公顷（27,411 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1516（Sunnybrae Normal School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "email": "international@torbay.school.nz",
@@ -2271,9 +2475,15 @@
     "longitude": "174.745881",
     "school_type_moe": "Contributing",
     "total_roll": "595",
-    "international_roll": "16",
+    "international_roll": 16,
     "eqi_directory": 391,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 595,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.5878,
+    "site_area_m2": 25877.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.5878 公顷（25,878 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1538（Torbay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Vauxhall School",
@@ -2335,9 +2545,15 @@
     "longitude": "174.803082",
     "school_type_moe": "Contributing",
     "total_roll": "161",
-    "international_roll": "6",
+    "international_roll": 6,
     "eqi_directory": 366,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 161,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.4041,
+    "site_area_m2": 14040.7,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.4041 公顷（14,041 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1541（Vauxhall School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "St Leo's Catholic School (Devonport)",
@@ -2393,9 +2609,15 @@
     "longitude": "174.796563",
     "school_type_moe": "Contributing",
     "total_roll": "51",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 380,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 51,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 0.6068,
+    "site_area_m2": 6068.4,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.6068 公顷（6,068 m²），图层记录 last_modified 2021-06-10；匹配 source_facility_id=1500（St Leo's Catholic School (Devonport)，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Stanley Bay School",
@@ -2461,9 +2683,15 @@
     "longitude": "174.784759",
     "school_type_moe": "Contributing",
     "total_roll": "178",
-    "international_roll": "2",
+    "international_roll": 2,
     "eqi_directory": 360,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 178,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 0.9082,
+    "site_area_m2": 9081.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.9082 公顷（9,082 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1512（Stanley Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Verran Primary School",
@@ -2519,9 +2747,15 @@
     "longitude": "174.713393",
     "school_type_moe": "Contributing",
     "total_roll": "209",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 401,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 209,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.0238,
+    "site_area_m2": 20237.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.0238 公顷（20,238 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1543（Verran Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Titirangi School (Titirangi Primary)",
@@ -2583,9 +2817,15 @@
     "longitude": "174.653783",
     "school_type_moe": "Contributing",
     "total_roll": "456",
-    "international_roll": "4",
+    "international_roll": 4,
     "eqi_directory": 366,
-    "region_cn": "西区"
+    "region_cn": "西区",
+    "student_count": 456,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.538,
+    "site_area_m2": 25379.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.538 公顷（25,380 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1537（Titirangi School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Summerland Primary",
@@ -2641,9 +2881,15 @@
     "longitude": "174.612019",
     "school_type_moe": "Contributing",
     "total_roll": "637",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 394,
-    "region_cn": "西区"
+    "region_cn": "西区",
+    "student_count": 637,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.6156,
+    "site_area_m2": 26155.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.6156 公顷（26,156 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6937（Summerland Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Colwill School Massey",
@@ -2708,9 +2954,15 @@
     "longitude": "174.632881",
     "school_type_moe": "Full Primary",
     "total_roll": "257",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 499,
-    "region_cn": "西区"
+    "region_cn": "西区",
+    "student_count": 257,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.8056,
+    "site_area_m2": 28056.3,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8056 公顷（28,056 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1254（Colwill School Massey，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Green Bay School",
@@ -2771,9 +3023,15 @@
     "longitude": "174.669395",
     "school_type_moe": "Secondary (Year 9-15)",
     "total_roll": "1961",
-    "international_roll": "54",
+    "international_roll": 54,
     "eqi_directory": 430,
-    "region_cn": "西区"
+    "region_cn": "西区",
+    "student_count": 1961,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 8.4219,
+    "site_area_m2": 84218.8,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 8.4219 公顷（84,219 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=42（Green Bay High School，Secondary (Year 9-15)）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Matipo Road School",
@@ -2840,9 +3098,15 @@
     "longitude": "174.641103",
     "school_type_moe": "Contributing",
     "total_roll": "450",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 407,
-    "region_cn": "西区"
+    "region_cn": "西区",
+    "student_count": 450,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.8158,
+    "site_area_m2": 28158.5,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8158 公顷（28,158 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1365（Matipo Road School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Clevedon School",
@@ -2898,9 +3162,15 @@
     "longitude": "175.038957",
     "school_type_moe": "Full Primary",
     "total_roll": "383",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 414,
-    "region_cn": "南区"
+    "region_cn": "南区",
+    "student_count": 383,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.7019,
+    "site_area_m2": 27018.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7019 公顷（27,019 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1249（Clevedon School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Mauku School",
@@ -2967,9 +3237,15 @@
     "longitude": "174.820835",
     "school_type_moe": "Contributing",
     "total_roll": "161",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 475,
-    "region_cn": "南区"
+    "region_cn": "南区",
+    "student_count": 161,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.8963,
+    "site_area_m2": 18963.2,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.8963 公顷（18,963 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1366（Mauku School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Waiuku Primary School",
@@ -3038,9 +3314,15 @@
     "longitude": "174.732890",
     "school_type_moe": "Full Primary",
     "total_roll": "365",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 453,
-    "region_cn": "南区"
+    "region_cn": "南区",
+    "student_count": 365,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.7109,
+    "site_area_m2": 37108.8,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.7109 公顷（37,109 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1559（Waiuku Primary School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Mount Roskill Primary School",
@@ -3106,9 +3388,15 @@
     "longitude": "174.748274",
     "school_type_moe": "Contributing",
     "total_roll": "632",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 406,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 632,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.0587,
+    "site_area_m2": 30586.9,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0587 公顷（30,587 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1384（Mt Roskill Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Mt Eden Normal Primary School",
@@ -3172,9 +3460,15 @@
     "longitude": "174.756557",
     "school_type_moe": "Contributing",
     "total_roll": "585",
-    "international_roll": "9",
+    "international_roll": 9,
     "eqi_directory": 346,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 585,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.8529,
+    "site_area_m2": 18529.3,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.8529 公顷（18,529 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1378（Mt Eden Normal School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Remuera Primary School",
@@ -3240,9 +3534,15 @@
     "longitude": "174.793116",
     "school_type_moe": "Contributing",
     "total_roll": "616",
-    "international_roll": "16",
+    "international_roll": 16,
     "eqi_directory": 348,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 616,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.5916,
+    "site_area_m2": 15915.8,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.5916 公顷（15,916 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1462（Remuera School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Ōrākei School",
@@ -3308,9 +3608,15 @@
     "longitude": "174.815043",
     "school_type_moe": "Full Primary",
     "total_roll": "253",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 449,
-    "region_cn": "中区"
+    "region_cn": "中区",
+    "student_count": 253,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.7143,
+    "site_area_m2": 27143.2,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7143 公顷（27,143 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1402（Orakei School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Riverhills School",
@@ -3376,9 +3682,15 @@
     "longitude": "174.889636",
     "school_type_moe": "Contributing",
     "total_roll": "129",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 494,
-    "region_cn": "东区"
+    "region_cn": "东区",
+    "student_count": 129,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 1.9095,
+    "site_area_m2": 19094.6,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.9095 公顷（19,095 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1465（Riverhills School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Riverhead School",
@@ -3444,9 +3756,15 @@
     "longitude": "174.593955",
     "school_type_moe": "Full Primary",
     "total_roll": "476",
-    "international_roll": "0",
+    "international_roll": 0,
     "eqi_directory": 389,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 476,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.0441,
+    "site_area_m2": 20441.4,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.0441 公顷（20,441 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1464（Riverhead School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Whangaparaoa School",
@@ -3510,9 +3828,15 @@
     "longitude": "174.754756",
     "school_type_moe": "Contributing",
     "total_roll": "843",
-    "international_roll": "1",
+    "international_roll": 1,
     "eqi_directory": 417,
-    "region_cn": "北岸"
+    "region_cn": "北岸",
+    "student_count": 843,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 3.1346,
+    "site_area_m2": 31345.7,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.1346 公顷（31,346 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1571（Whangaparaoa School (Auckland)，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   },
   {
     "nameEN": "Blockhouse Bay Primary School",
@@ -3575,8 +3899,14 @@
     "longitude": "174.702162",
     "school_type_moe": "Contributing",
     "total_roll": "540",
-    "international_roll": "3",
+    "international_roll": 3,
     "eqi_directory": 370,
-    "region_cn": "西区"
+    "region_cn": "西区",
+    "student_count": 540,
+    "student_count_source": "Education Counts NZ Schools Directory（Total School Roll）",
+    "site_area_ha": 2.7755,
+    "site_area_m2": 27755.1,
+    "site_area_note": "LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7755 公顷（27,755 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1233（Blockhouse Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。",
+    "site_area_source": "https://data.linz.govt.nz/layer/105588-nz-facilities/"
   }
 ]

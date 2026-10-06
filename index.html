@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>奥克兰小学短期插班 · enrichment短名单（1–6周）</title>
+<title>奥克兰小学短期插班短名单（1–6周）</title>
 <style>
 :root{--bg:#FBF9F5;--ink:#1c1917;--forest:#1B4D3E;--amber:#D97706;--line:#e7e5e4}
 body{margin:0;font-family:"Noto Sans SC",system-ui,sans-serif;background:var(--bg);color:var(--ink)}
@@ -12,11 +12,11 @@ main{max-width:1400px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
 .card{background:#fff;border:1px solid var(--line);border-radius:1rem;padding:1rem 1.2rem;margin:1rem 0;line-height:1.55;font-size:.9rem}
 h2{margin:1.5rem 0 .7rem;font-size:1.1rem;color:var(--forest)}
 .scroll{overflow:auto;border:1px solid var(--line);border-radius:1rem;background:#fff}
-table{width:100%;border-collapse:collapse;font-size:.78rem;min-width:1200px}
+table{width:100%;border-collapse:collapse;font-size:.78rem;min-width:1300px}
 th,td{padding:.55rem .5rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
 th{background:#f5f5f4;font-size:.68rem;color:#57534e;position:sticky;top:0}
 .num{color:#a8a29e}.name{font-weight:600}.en{color:#78716c;font-size:.72rem}.meta{color:#a8a29e;font-size:.68rem}
-.wrap{max-width:14rem;line-height:1.35}.eqi{font-weight:700;color:var(--forest)}
+.wrap{max-width:13rem;line-height:1.35}.eqi{font-weight:700;color:var(--forest)}.numcell{white-space:nowrap;font-variant-numeric:tabular-nums}
 a{color:var(--forest)}
 .badge{display:inline-block;padding:.1rem .4rem;border-radius:999px;font-size:.68rem;font-weight:600}
 .badge.rec{background:#dcfce7;color:#166534}.badge.enq{background:#fef3c7;color:#92400e}
@@ -25,18 +25,17 @@ a{color:var(--forest)}
 footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 </style></head><body>
 <header>
-<p class="tag">标准：灵活 1–6 周 · EQI/评价/ESOL/buddy/区/治安/交通/房租 · 2026-10-06 HKT</p>
+<p class="tag">标准：灵活 1–6 周 · 含人数/面积 · 更新 2026-10-06 HKT</p>
 <h1>可用短名单（已 enrichment）</h1>
-<p>推荐 <strong>47</strong> · 待询 <strong>8</strong>。EQI 为教育部社会经济指数（越高障碍估计越多，<strong>不是</strong>教学质量分）。ESOL/Buddy 以官网明示为准，未写明不代表没有。</p>
+<p>推荐 <strong>47</strong> · 待询 <strong>8</strong>。学生人数来自 Education Counts 目录；校区面积来自 LINZ NZ Facilities 地块多边形（公顷）。EQI 不是教学质量分。</p>
 </header>
 <main>
 <div class="card">
-房租：45 校区中 35 区有公开周租参考（CheckMyBuilder/MBIE 或 Crockers/REINZ，2026）；其余标注未找到可靠中位数。<br/>
-治安为概括提示，请再对照 NZ Police 地图。数据文件：<code>schools_enriched.json</code>
+面积为学校设施地块边界估算（非教室建筑面积）。学生人数为 Total School Roll（含国际生另列）。ESOL/Buddy 以官网明示为准。
 </div>
 <h2>一、推荐（47）</h2>
 <div class="scroll"><table><thead><tr>
-<th>#</th><th>学校 / 区</th><th>官网</th><th>邮箱</th><th>最低周数</th><th>EQI</th><th>评价(ERO等)</th><th>ESOL</th><th>Buddy</th><th>治安</th><th>交通</th><th>平均房租</th><th>学费</th><th>状态</th>
+<th>#</th><th>学校 / 区</th><th>官网</th><th>邮箱</th><th>最低周数</th><th>学生人数</th><th>面积</th><th>EQI</th><th>评价(ERO等)</th><th>ESOL</th><th>Buddy</th><th>治安</th><th>交通</th><th>平均房租</th><th>学费</th><th>状态</th>
 </tr></thead><tbody>
 <tr>
 <td class='num'>1</td>
@@ -44,6 +43,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.maungawhau.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>catherinej@maungawhau.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>674<div class='tiny'>国际生 9</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.027 公顷（20,270 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1367（Maungawhau School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.03 ha</td>
 <td class='eqi'>344</td>
 <td class='wrap'>ERO Te Ara Huarau 档案（2023-11）：强调学生投入、关怀型师生关系、领导力与社区参与；无星级。详见 https://ero.govt.nz/institution/1367</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -59,6 +60,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.meadowbank.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>ccallinan@meadowbank.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>805<div class='tiny'>国际生 4</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.4203 公顷（24,203 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1370（Meadowbank School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.42 ha</td>
 <td class='eqi'>349</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1370</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：itional tuition to meet their English language needs with a specialist teacher (ESOL). The Code of Practice for the Pastoral Care of International Students gives assurances on student</div></td>
@@ -74,6 +77,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.ptchev.school.nz/our-learning/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>ptchev@ptchev.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>639<div class='tiny'>国际生 6</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.7573 公顷（17,573 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1440（Point Chevalier School Rangi-mata-rau，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.76 ha</td>
 <td class='eqi'>360</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1440</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -89,6 +94,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://churchillpark.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>international@churchillpark.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>404<div class='tiny'>国际生 9</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0318 公顷（30,318 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1246（Churchill Park School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.03 ha</td>
 <td class='eqi'>363</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1246</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -104,6 +111,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.dominionrd.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>office@dominionrd.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>210<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.0448 公顷（20,448 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1261（Dominion Road School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.04 ha</td>
 <td class='eqi'>454</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较高（资源补偿导向，≠教学质量差）。https://ero.govt.nz/institution/1261</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：delighted to welcome International and English for Speakers of Other Language (ESOL) students to Dominion Road School. We offer specialised English language classe | . We offer specialised English language classes to students when necessary</div></td>
@@ -119,6 +128,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.freemansbay.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>admin@freemansbay.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>646<div class='tiny'>国际生 13</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.1801 公顷（21,801 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1279（Freemans Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.18 ha</td>
 <td class='eqi'>408</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1279</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：Information Extension and Enrichment Extra Curricular Activities Peer Mediators ESOL Waiata Concerns and Complaints Process E.R.O Report Vacancies Emergency Informa | Information Extension and Enrichment Extra Curricular Activities Peer Med</div></td>
@@ -134,6 +145,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://glendowie.school.nz/international/' target='_blank' rel='noopener'>官网</a></td>
 <td>international@glendowie.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>676<div class='tiny'>国际生 39</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.1434 公顷（21,434 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1294（Glendowie School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.14 ha</td>
 <td class='eqi'>364</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1294</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -149,6 +162,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.kadimah.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>4 周起</td>
+<td class='numcell'>139<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.8586 公顷（8,586 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=453（Kadimah School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>0.86 ha</td>
 <td class='eqi'>361</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/453</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -164,6 +179,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.mtalbertprimary.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>reception@maps.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>539<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0321 公顷（30,321 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1381（Mt Albert School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.03 ha</td>
 <td class='eqi'>390</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1381</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -179,6 +196,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://ponsprim.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>internationals@ponsprim.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>329<div class='tiny'>国际生 3</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.1751 公顷（11,751 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1446（Ponsonby Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.18 ha</td>
 <td class='eqi'>364</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1446</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：e, dedicated teachers who provide a nurturing approach to learning. Specialised ESOL Support 2–3 targeted small-group English lessons per week with a qualified ESOL | ESOL Support 2–3 targeted small-group English lessons per week with a qua</div></td>
@@ -194,6 +213,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://balmoralsda.school.nz/' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>—</td>
+<td class='numcell'>64<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.7056 公顷（7,056 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=4100（Balmoral Seventh Day Adventist School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>0.71 ha</td>
 <td class='eqi'>441</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/4100</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -209,6 +230,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.beachlands.school.nz/international-student-programme' target='_blank' rel='noopener'>官网</a></td>
 <td>maryam@studywithkea.com</td>
 <td>1 周起</td>
+<td class='numcell'>642<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.5212 公顷（25,212 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1224（Beachlands School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.52 ha</td>
 <td class='eqi'>395</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1224</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -224,6 +247,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.owairoa.school.nz/international/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>1 周起</td>
+<td class='numcell'>843<div class='tiny'>国际生 21</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.3821 公顷（23,821 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1413（Owairoa Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.38 ha</td>
 <td class='eqi'>391</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1413</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -239,6 +264,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.riverina.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>1 周起</td>
+<td class='numcell'>150<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.1817 公顷（31,817 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1466（Riverina School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.18 ha</td>
 <td class='eqi'>468</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较高（资源补偿导向，≠教学质量差）。https://ero.govt.nz/institution/1466</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：These responsibilities are overseen by the Principal, Deputy Principal and the ESOL teacher. An orientation programme on arrival helps students to quickly settle i</div></td>
@@ -254,6 +281,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.botanydowns.school.nz/enrolment-process-international/' target='_blank' rel='noopener'>官网</a></td>
 <td>international@botanydowns.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>590<div class='tiny'>国际生 7</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.9596 公顷（29,596 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1235（Botany Downs School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.96 ha</td>
 <td class='eqi'>392</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1235</td>
 <td><span class='unk'>未写明</span><div class='tiny'>官网未明确写 ESOL/ELL（需向学校确认）</div></td>
@@ -269,6 +298,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.pigeon-mountain.school.nz/international-enrolment' target='_blank' rel='noopener'>官网</a></td>
 <td>internationalstudents@pmps.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>503<div class='tiny'>国际生 8</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.2168 公顷（32,168 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1439（Pigeon Mountain School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.22 ha</td>
 <td class='eqi'>353</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1439</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：ated team including: Principal, Deputy Principal International Learners Manager ELL teacher and teacher support staff Contact our International Learners Manager Wendy Hosking internat</div></td>
@@ -284,6 +315,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.sunnyhills.school.nz/international-students/international-enrolment' target='_blank' rel='noopener'>官网</a></td>
 <td>international@sunnyhills.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>500<div class='tiny'>国际生 3</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.401 公顷（24,010 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1515（Sunnyhills School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.40 ha</td>
 <td class='eqi'>367</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1515</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -299,6 +332,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.willowbank.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>info@willowbank.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>740<div class='tiny'>国际生 5</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.4425 公顷（24,425 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6959（Willowbank School (Howick)，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.44 ha</td>
 <td class='eqi'>374</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/6959</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -314,6 +349,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.wakaaranga.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>enquiries@wakaaranga.school.nz</td>
 <td>5 周起</td>
+<td class='numcell'>655<div class='tiny'>国际生 7</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.2331 公顷（22,331 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1560（Wakaaranga School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.23 ha</td>
 <td class='eqi'>381</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1560</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -329,6 +366,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.elmpark.school.nz/international-students/international-learner-fees-2026' target='_blank' rel='noopener'>官网</a></td>
 <td>lauren@elmpark.school.nz</td>
 <td>—</td>
+<td class='numcell'>495<div class='tiny'>国际生 2</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.2372 公顷（22,372 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1269（Elm Park School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.24 ha</td>
 <td class='eqi'>407</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1269</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -344,6 +383,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.maraetaibeach.school.nz/international-enrolment' target='_blank' rel='noopener'>官网</a></td>
 <td>international@maraetaibeach.school.nz</td>
 <td>—</td>
+<td class='numcell'>432<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.1739 公顷（21,739 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1357（Maraetai Beach School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.17 ha</td>
 <td class='eqi'>398</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1357</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -359,6 +400,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://ormps.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>enrol@ormps.school.nz</td>
 <td>—</td>
+<td class='numcell'>1006<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.7286 公顷（37,286 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=688（Ormiston Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.73 ha</td>
 <td class='eqi'>379</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/688</td>
 <td><span class='unk'>未写明</span><div class='tiny'>官网未明确写 ESOL/ELL（需向学校确认）</div></td>
@@ -374,6 +417,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://shellypark.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>jennyb@shellypark.school.nz</td>
 <td>Typically 3–6 weeks (flexible extensions); no harder single minimum digit beyond that wording</td>
+<td class='numcell'>467<div class='tiny'>国际生 4</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.6046 公顷（26,046 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1480（Shelly Park School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.60 ha</td>
 <td class='eqi'>375</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1480</td>
 <td><span class='unk'>未写明</span><div class='tiny'>官网未明确写 ESOL/ELL（需向学校确认）</div></td>
@@ -389,6 +434,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.target.school.nz/school-information/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>1 周起</td>
+<td class='numcell'>466<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8536 公顷（28,536 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1528（Target Road School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.85 ha</td>
 <td class='eqi'>412</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1528</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：e and interactive learning programme to enhance the English Language Learners’ (ELL) use of English through immersion in the four modes of English of listening, sp</div></td>
@@ -404,6 +451,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://chelsea.school.nz/short-stay-opportunities/' target='_blank' rel='noopener'>官网</a></td>
 <td>office@chelsea.school.nz</td>
 <td>2 周起</td>
+<td class='numcell'>401<div class='tiny'>国际生 6</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8748 公顷（28,748 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1244（Chelsea School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.87 ha</td>
 <td class='eqi'>352</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1244</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -419,6 +468,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.albany.school.nz/student-enrolment/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>international@albany.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>654<div class='tiny'>国际生 9</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0266 公顷（30,266 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1202（Albany School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.03 ha</td>
 <td class='eqi'>378</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1202</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：term (10 weeks or more) international students are encouraged to participate in ELL lessons matched to their needs. The School currently has a specialist room, sta</div></td>
@@ -434,6 +485,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://devonport.school.nz/joining-our-school' target='_blank' rel='noopener'>官网</a></td>
 <td>office@devonport.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>249<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.3183 公顷（13,183 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1260（Devonport Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.32 ha</td>
 <td class='eqi'>372</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1260</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -449,6 +502,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.ridgeview.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>office@ridgeview.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>48<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.4082 公顷（14,082 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1433（Ridgeview School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.41 ha</td>
 <td class='eqi'>470</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较高（资源补偿导向，≠教学质量差）。https://ero.govt.nz/institution/1433</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：y school (approx. 50-60 students) &amp;#8211; Supportive, personalised teaching and English language support (ESOL) &amp;#8211; Beautiful rural location close to Auckland city &amp;#8211; Strong v | udents) &amp;#8211; Supportive, personalised teaching and</div></td>
@@ -464,6 +519,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.ahutoetoe.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>singram@ahutoetoe.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>325<div class='tiny'>国际生 4</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.7462 公顷（37,462 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=764（Ahutoetoe School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.75 ha</td>
 <td class='eqi'>384</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/764</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：students are assisted to work and integrate into the classroom environment. The ESoL teacher liaises closely with the classroom teacher to ensure that our students | ool International Students Programme offers: Small group tuition with qual</div></td>
@@ -479,6 +536,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://gulfharbour.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>r.taylor@ghs.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>565<div class='tiny'>国际生 21</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 4.5944 公顷（45,944 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6920（Gulf Harbour School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>4.59 ha</td>
 <td class='eqi'>414</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/6920</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -494,6 +553,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.hobsonville.school.nz/international/welcome-to-hobsonville/' target='_blank' rel='noopener'>官网</a></td>
 <td>office@hobsonville.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>502<div class='tiny'>国际生 5</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0565 公顷（30,565 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1314（Hobsonville School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.06 ha</td>
 <td class='eqi'>397</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1314</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：ASSESSMENT – HOME LEARNING Special Programmes – PROJECT PLAY – LEARNING NEEDS – ESOL – LEARNING THROUGH PLAY (Yrs 0–3) – ACTIV8 (Yrs 1–8) – GARDEN TO TABLE – WASTE</div></td>
@@ -509,6 +570,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.mairangibay.school.nz/international-programme-globally-minded/international-enrolment' target='_blank' rel='noopener'>官网</a></td>
 <td>frankj@mairangibay.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>486<div class='tiny'>国际生 33</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.7663 公顷（17,663 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1343（Mairangi Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.77 ha</td>
 <td class='eqi'>358</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1343</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -524,6 +587,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.snellsbeach.school.nz/international-fees-and-policies/' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>4 周起</td>
+<td class='numcell'>357<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.5819 公顷（35,819 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6759（Snells Beach Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.58 ha</td>
 <td class='eqi'>437</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/6759</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -539,6 +604,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://hail.to/sunnybrae-normal-school/article/uWhS7pq' target='_blank' rel='noopener'>官网</a></td>
 <td>studynz@sunnybrae.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>381<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7411 公顷（27,411 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1516（Sunnybrae Normal School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.74 ha</td>
 <td class='eqi'>386</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1516</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -554,6 +621,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.torbay.school.nz/international/enrolment-international-fees' target='_blank' rel='noopener'>官网</a></td>
 <td>international@torbay.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>595<div class='tiny'>国际生 16</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.5878 公顷（25,878 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1538（Torbay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.59 ha</td>
 <td class='eqi'>391</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1538</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -569,6 +638,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.vauxhall.school.nz/international-students/fees' target='_blank' rel='noopener'>官网</a></td>
 <td>office@vauxhall.school.nz</td>
 <td>4 周起</td>
+<td class='numcell'>161<div class='tiny'>国际生 6</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.4041 公顷（14,041 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1541（Vauxhall School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.40 ha</td>
 <td class='eqi'>366</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1541</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -584,6 +655,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.stleos.school.nz/our-school-2/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>—</td>
+<td class='numcell'>51<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.6068 公顷（6,068 m²），图层记录 last_modified 2021-06-10；匹配 source_facility_id=1500（St Leo&#x27;s Catholic School (Devonport)，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>0.61 ha</td>
 <td class='eqi'>380</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1500</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：equest for 1 hour/day, $200/week, for a group of 6 children for extracurricular/ESOL activities, such as cooking, Physical Education, and written and oral language.</div></td>
@@ -599,6 +672,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.stanleybay.school.nz/international-students.html' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>—</td>
+<td class='numcell'>178<div class='tiny'>国际生 2</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 0.9082 公顷（9,082 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1512（Stanley Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>0.91 ha</td>
 <td class='eqi'>360</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1512</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -614,6 +689,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.verranprimary.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>—</td>
+<td class='numcell'>209<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.0238 公顷（20,238 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1543（Verran Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.02 ha</td>
 <td class='eqi'>401</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1543</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -629,6 +706,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.titirangi.school.nz/international-students/international-students-welcome' target='_blank' rel='noopener'>官网</a></td>
 <td>brigetteh@titirangi.school.nz</td>
 <td>3 周起</td>
+<td class='numcell'>456<div class='tiny'>国际生 4</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.538 公顷（25,380 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1537（Titirangi School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.54 ha</td>
 <td class='eqi'>366</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1537</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：ng about water safety through sailing. English for Speakers of Other Languages (ESOL) Programme The school has a commitment to developing programmes and strategies | gramme is developed to meet individuals and school-wide needs and is run b</div></td>
@@ -644,6 +723,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.summerland.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>4 周起</td>
+<td class='numcell'>637<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.6156 公顷（26,156 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=6937（Summerland Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.62 ha</td>
 <td class='eqi'>394</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/6937</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -659,6 +740,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.colwill.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>office@colwill.school.nz</td>
 <td>—</td>
+<td class='numcell'>257<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8056 公顷（28,056 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1254（Colwill School Massey，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.81 ha</td>
 <td class='eqi'>499</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较高（资源补偿导向，≠教学质量差）。https://ero.govt.nz/institution/1254</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -674,6 +757,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://greenbay.school.nz/international' target='_blank' rel='noopener'>官网</a></td>
 <td>helenh@greenbay.school.nz</td>
 <td>未写成单一硬性最低周数；收费表含 Less than 4 weeks（按日）与 6 weeks–less than 1 term（按周）</td>
+<td class='numcell'>1961<div class='tiny'>国际生 54</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 8.4219 公顷（84,219 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=42（Green Bay High School，Secondary (Year 9-15)）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>8.42 ha</td>
 <td class='eqi'>430</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/42</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：ds Online Colour Run 2025 Caregiver App Curriculum BYOD (Bring Your Own Device) ESOL Calendar Sports and Houses Tour Noticeboard/News Feedback Procedures Board of T</div></td>
@@ -689,6 +774,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.matipo.school.nz/international-studies/welcome/' target='_blank' rel='noopener'>官网</a></td>
 <td>office@matipo.school.nz</td>
 <td>—</td>
+<td class='numcell'>450<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.8158 公顷（28,158 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1365（Matipo Road School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.82 ha</td>
 <td class='eqi'>407</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1365</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -704,6 +791,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.clevedon.school.nz/information/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>—</td>
 <td>1 周起</td>
+<td class='numcell'>383<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7019 公顷（27,019 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1249（Clevedon School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.70 ha</td>
 <td class='eqi'>414</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1249</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -719,6 +808,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.mauku.school.nz/international/' target='_blank' rel='noopener'>官网</a></td>
 <td>admin@mauku.school.nz</td>
 <td>—</td>
+<td class='numcell'>161<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.8963 公顷（18,963 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1366（Mauku School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.90 ha</td>
 <td class='eqi'>475</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较高（资源补偿导向，≠教学质量差）。https://ero.govt.nz/institution/1366</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：re supported through:&amp;nbsp; ● Classroom integration with local students&amp;nbsp; ● English language support where needed&amp;nbsp; ● Ongoing pastoral care and wellbeing support Mauku School e</div></td>
@@ -734,6 +825,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://waiuku.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>finances@waiuku.school.nz</td>
 <td>—</td>
+<td class='numcell'>365<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.7109 公顷（37,109 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1559（Waiuku Primary School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.71 ha</td>
 <td class='eqi'>453</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较高（资源补偿导向，≠教学质量差）。https://ero.govt.nz/institution/1559</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -747,7 +840,7 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 </tbody></table></div>
 <h2>二、待询（8）</h2>
 <div class="scroll"><table><thead><tr>
-<th>#</th><th>学校 / 区</th><th>官网</th><th>邮箱</th><th>最低周数</th><th>EQI</th><th>评价(ERO等)</th><th>ESOL</th><th>Buddy</th><th>治安</th><th>交通</th><th>平均房租</th><th>学费</th><th>状态</th>
+<th>#</th><th>学校 / 区</th><th>官网</th><th>邮箱</th><th>最低周数</th><th>学生人数</th><th>面积</th><th>EQI</th><th>评价(ERO等)</th><th>ESOL</th><th>Buddy</th><th>治安</th><th>交通</th><th>平均房租</th><th>学费</th><th>状态</th>
 </tr></thead><tbody>
 <tr>
 <td class='num'>48</td>
@@ -755,6 +848,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://mrps.school.nz/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>admin@mrps.school.nz</td>
 <td>—</td>
+<td class='numcell'>632<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.0587 公顷（30,587 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1384（Mt Roskill Primary School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.06 ha</td>
 <td class='eqi'>406</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1384</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -770,6 +865,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.mteden.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>sandraj@mteden.school.nz</td>
 <td>—</td>
+<td class='numcell'>585<div class='tiny'>国际生 9</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.8529 公顷（18,529 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1378（Mt Eden Normal School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.85 ha</td>
 <td class='eqi'>346</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1378</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -785,6 +882,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.rps.school.nz/our-school/international-students/' target='_blank' rel='noopener'>官网</a></td>
 <td>sharone@rps.school.nz</td>
 <td>—</td>
+<td class='numcell'>616<div class='tiny'>国际生 16</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.5916 公顷（15,916 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1462（Remuera School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.59 ha</td>
 <td class='eqi'>348</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1462</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：ormation contact the International Student Administrator: sharone@rps.school.nz ESOL - English for speakers of other languages English Learner Programmes are taught | rogrammes are taught at the appropriate levels - from beginner to advance</div></td>
@@ -800,6 +899,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://orakei.school.nz/international' target='_blank' rel='noopener'>官网</a></td>
 <td>internationals@orakei.school.nz</td>
 <td>—</td>
+<td class='numcell'>253<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7143 公顷（27,143 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1402（Orakei School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.71 ha</td>
 <td class='eqi'>449</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1402</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：International student commencing his/her study at Ōrākei School. Pastoral Care ESOL (English as a Second Language) lessons, pastoral care and learning support are | national student commencing his/her study at Ōrākei School. Pastoral Care E</div></td>
@@ -815,6 +916,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.riverhills.school.nz/international' target='_blank' rel='noopener'>官网</a></td>
 <td>office@riverhills.school.nz</td>
 <td>—</td>
+<td class='numcell'>129<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 1.9095 公顷（19,095 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1465（Riverhills School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>1.91 ha</td>
 <td class='eqi'>494</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较高（资源补偿导向，≠教学质量差）。https://ero.govt.nz/institution/1465</td>
 <td><span class='yes'>有</span><div class='tiny'>官网提及：ill assist with tutoring English to non-English speaking students, who enter an ESOL (English for Speakers of Other Languages) programme. Curriculum All students wi</div></td>
@@ -830,6 +933,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.riverhead.school.nz/our-information/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>pa@riverhead.school.nz</td>
 <td>—</td>
+<td class='numcell'>476<div class='tiny'>国际生 0</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.0441 公顷（20,441 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1464（Riverhead School，Full Primary）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.04 ha</td>
 <td class='eqi'>389</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1464</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -845,6 +950,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.wgp.school.nz/international-students' target='_blank' rel='noopener'>官网</a></td>
 <td>admin@wgp.school.nz</td>
 <td>—</td>
+<td class='numcell'>843<div class='tiny'>国际生 1</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 3.1346 公顷（31,346 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1571（Whangaparaoa School (Auckland)，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>3.13 ha</td>
 <td class='eqi'>417</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）。https://ero.govt.nz/institution/1571</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -860,6 +967,8 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><a href='https://www.blockhousebay.school.nz/enrolment' target='_blank' rel='noopener'>官网</a></td>
 <td>office@blockhousebay.school.nz</td>
 <td>—</td>
+<td class='numcell'>540<div class='tiny'>国际生 3</div></td>
+<td class='numcell' title='LINZ NZ Facilities（学校地块多边形）按 NZTM 平面计算约 2.7755 公顷（27,755 m²），图层记录 last_modified 2026-02-25；匹配 source_facility_id=1233（Blockhouse Bay School，Contributing）。数据来源 LINZ layer 105588 / ArcGIS LINZ_NZ_Facilities。'>2.78 ha</td>
 <td class='eqi'>370</td>
 <td class='wrap'>ERO报告可查（现行多为 Te Ara Huarau 档案/评估，无星级）；EQI 相对较低（社会经济障碍估计较低，≠教学质量）。https://ero.govt.nz/institution/1233</td>
 <td><span class='unk'>未写明</span><div class='tiny'>国际生页面未明确写 ESOL/ELL 项目（需向学校确认）</div></td>
@@ -871,5 +980,5 @@ footer{color:#78716c;font-size:.75rem;margin-top:1.5rem}
 <td><span class='badge enq'>待询</span></td>
 </tr>
 </tbody></table></div>
-<footer>来源：Education Counts EQI 2023–2026、NZ Schools Directory、ERO、各校官网、Tenancy/REINZ 市场租金汇总。</footer>
+<footer>来源：Education Counts、LINZ NZ Facilities、ERO、各校官网、租金市场汇总。数据 JSON：schools_enriched.json</footer>
 </main></body></html>
